@@ -12,7 +12,7 @@ from PIL import Image
 import cv2
 
 sio = socketio.Server()
-app = Flask(__name__) #__main__
+app = Flask(__name__)
 maxSpeed = 13
 
 def preProcessing(img):
