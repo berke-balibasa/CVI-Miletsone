@@ -12,7 +12,7 @@ The final trained model is tested in the Udacity self-driving car simulator in A
 This project includes the following main files:
 
 - `data_preprocessing.py`  
-  Loads the driving data, fixes image paths, checks the steering distribution, and balances the dataset and files.
+  Loads the driving data, fixes image paths, checks the steering distribution, and balances the dataset.
 
 - `utils.py`  
   Contains image preprocessing, data augmentation, image reading, and batch generator functions.
