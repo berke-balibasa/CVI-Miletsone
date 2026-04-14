@@ -127,11 +127,12 @@ Some challenges were faced during this project:
 
 2. **Environment setup issues**  
    The original package list was outdated, so a working environment was created manually with compatible package versions.
+   - After encountering Mac configuration issues, we transitioned to a single workstation, which facilitated more effective in-person collaboration.
 
-3. **Model loading issue**  
+4. **Model loading issue**  
    The saved model caused a loading error during testing, so the model was loaded with `compile=False`.
 
-4. **Weak driving performance at first**  
+5. **Weak driving performance at first**  
    At the beginning, the car could not stay on the track well. This was improved by:
    - stronger balancing
    - better augmentation logic
